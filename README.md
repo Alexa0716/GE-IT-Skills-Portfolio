@@ -111,3 +111,28 @@ I prompted an AI discovery tool to summarize recent literature on the Mindanao e
 
 ##### 2. Critical Reflection on Tool Limitations
 "While the AI platform consolidated dense policy documents into clear thematic summaries within seconds, the verification audit revealed critical systemic risks that could undermine evidence-based policymaking. Specifically, the tool blended aspirational regional transition targets with current baseline realities, creating completely fabricated data points (e.g., claiming a 65% RE penetration rate achieved in 2024). Furthermore, it failed to accurately capture real-time infrastructure milestones—such as the successful operation of the MVIP submarine cable link—instead recycling outdated historical delays. Moving forward, all automated text generation used during the exploratory phase of project portfolios must undergo this manual tracking matrix. Raw AI outputs are strictly prohibited from moving directly into secondary policy brief drafts without a designated verification anchor link to primary DOE, NGCP, or MinDA registries."
+
+### Data Analytics & Visual Report
+
+#### Dataset Focus: Mindanao Peace-Commodity Index: Coffee for Peace (CFP) Value Chain Optimization (2018–2026 Metrics)
+
+##### 1. Data Cleaning Protocol Log
+* **Raw Input Problem:** The initial CSV file collected from agrarian cooperatives across Region XI (Davao Region) and SOCCSKSARGEN exhibited severe data corruption, including unnormalized currency entries (e.g., mixing raw farm-gate prices of `8–11 PHP/kg` with processed cherry equivalents), missing data arrays for key conflict-interrupted quarters, and mixed volumetric units (metric tons vs. raw bag tallies).
+* **AI Cleaning Instruction:** Scan the raw multi-provincial database. Normalize all coffee pricing points to dry parchment equivalent ($PHP/\text{kg}$). Detect null entries in the "Yield Volume" column during high-tension seasonal outliers and impute missing variables using the median localized yield of certified *Train-the-Trainer* smallholder clusters. Standardize all regional volumetric outputs into metric tons ($MT$).
+* **Result:** Successfully cleansed and normalized 240 quarterly row inputs spanning indigenous coffee networks on Mount Apo and marginalized community farms, establishing an uncorrupted timeline for legislative analysis.
+
+##### 2. Visualizations Generated
+###### Chart A. Farm-Gate Price Leverage Post-CFP Intervention (PHP per KG)
+*(High-Contrast Bar Matrix: Visualizes the transformation of indigenous farmers from raw commodity suppliers to price-dictating market entrepreneurs.)*
+
+<img width="1029" height="513" alt="Screenshot 2026-06-19 at 8 25 21 PM" src="https://github.com/user-attachments/assets/7e29c0bd-2e28-41e3-b3d1-7a0cadfe2704" />
+
+##### Chart B: ODA Grant Reliance vs. Social Enterprise Self-Sustainability (%)
+*(Trend Matrix: Illustrates the intentional structural reduction of volatile international funding in favor of self-sustaining enterprise revenue.)*
+
+<img width="1144" height="369" alt="Screenshot 2026-06-19 at 8 28 03 PM" src="https://github.com/user-attachments/assets/d2544cd8-d166-44e2-8c81-c16041f50369" />
+
+#### 3. Human Analytical Narrative (The 'Why' Factor)
+"The visual trends extracted from the cleansed dataset demonstrate a critical socio-environmental reality in Mindanao: local economic sovereignty directly stabilizes conflict-affected zones. Historically, international corporations capitalized on a lack of market transparency, purchasing raw coffee from Mount Apo farmers at exploitative rates of 8–11 pesos per kilo. By demystifying the supply chain and substituting rigid, bureaucratically heavy INGO grant systems with an agile, investor-driven social enterprise model, Coffee for Peace has structurally scaled smallholder profit margins by over 900%. 
+
+For NEDA and local LGUs, this report underscores an urgent policy directive: budgetary resources must pivot away from short-term, externally mandated aid frameworks that foster institutional dependency. Instead, provincial allocations should aggressively fund domestic processing infrastructure, localized agricultural negotiation training, and peace-commodity value chains. Empowering the community to dictate market prices rather than absorb foreign aid shocks is our most viable mechanism for securing sustainable economic resilience and peace in the region."
